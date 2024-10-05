@@ -39,6 +39,9 @@ Aliases you can type in console to quickly execute/toggle commands.
 | hud | toggles cl_draw_only_deathnotices (0/1) | Toggle the hud off/on (minus the crosshair and killfeed) |
 | commands | n/a | Print all the commands shown above in the console |
 
+### Note:
+I removed the `chat` alias but you can still hide chat with `ignoremsg` in console (toggles between 3 settings: hide all, show team only, show all chat). Unfortunately it doesn't tell you which one you are on when doing it in demos so it can be a bit confusing but I thought I should still leave it here.
+
 ## Customizing blur/video settings
 | command | default value | description |
 | --- | --- | --- |
